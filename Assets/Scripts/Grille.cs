@@ -1,26 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 public class Grille
 {
     private int width;
-    private int heighth;
-
+    private int heigth;
+    private Vector3 origin;
     private float tileSize;
-    private int[,] grilleArray;
+    private float[,] grilleArray;
     private TextMesh[,] debugArray;
 
 
 
-    public Grille(int width, int heighth,float tileSize)
+    public Grille(int width, int heighth,float tileSize,Vector3 origin)
     {
         this.width = width;
-        this.heighth = heighth;
+        this.heigth = heighth;
         this.tileSize = tileSize;
+        this.origin = origin;
 
-
-        grilleArray=new int[width,heighth];
+        grilleArray=new float[width,heighth];
         debugArray = new TextMesh[width, heighth];
 
         Debug.Log(width + " " + heighth);
@@ -41,20 +42,26 @@ public class Grille
         Debug.DrawLine(getWorldPosistion(width, 0), getWorldPosistion(width, heighth), Color.white, 100f);
 
 
-        setValue(2, 1, 56);
+        //setValue(2, 1, 56);
     }
 
+    public int getWidth() { return this.width; }
+    public int getHeigth() { return this.heigth; }
+
+    public float getTileSize() { return this.tileSize; }
+
+    public Vector3 getOrigin() { return this.origin; }
 
     private Vector3 getWorldPosistion(int x, int y)
     {
-        return new Vector3(x,0,y)*tileSize;
+        return new Vector3(x,0,y)*tileSize+origin;
     }
 
-    public void setValue(int x,int y, int value)
+    public void setValue(int x,int y, float value)
     {
 
         Debug.Log("setValue : " + x + " , " + y);
-        if (x >= 0 && y >= 0 && x<width && y< heighth)
+        if (x >= 0 && y >= 0 && x<width && y< heigth)
         {
             grilleArray[x, y] = value;
             debugArray[x,y].text= grilleArray[x,y].ToString();
@@ -63,13 +70,13 @@ public class Grille
 
     private void getXZ(Vector3 worldPos,out int x, out int z)
     {
-        x = Mathf.FloorToInt(worldPos.x /tileSize);
-        z = Mathf.FloorToInt(worldPos.z / tileSize);
+        x = Mathf.FloorToInt((worldPos - origin).x /tileSize);
+        z = Mathf.FloorToInt((worldPos - origin).z / tileSize);
 
         Debug.Log("getXY : " + x + " , " +z);
     }
 
-    public void setValue(Vector3 worldPos,int value)
+    public void setValue(Vector3 worldPos,float value)
     {
         int x, z;
         getXZ(worldPos,out x,out z);
@@ -80,7 +87,7 @@ public class Grille
     public void modifyValue(int x, int y)
     {
         Debug.Log("setValue : " + x + " , " + y);
-        if (x >= 0 && y >= 0 && x < width && y < heighth)
+        if (x >= 0 && y >= 0 && x < width && y < heigth)
         {
             grilleArray[x, y] += 1;
             debugArray[x, y].text = grilleArray[x, y].ToString();
@@ -94,9 +101,9 @@ public class Grille
         modifyValue(x, z);
     }
 
-    private int getValue(int x, int y)
+    private float getValue(int x, int y)
     {
-        if (x >= 0 && y >= 0 && x < width && y < heighth)
+        if (x >= 0 && y >= 0 && x < width && y < heigth)
         {
             return grilleArray[x, y];
           
@@ -106,7 +113,7 @@ public class Grille
         }
     }
 
-    public int getValue(Vector3 worldPos)
+    public float getValue(Vector3 worldPos)
     {
         int x, z;
         getXZ(worldPos, out x, out z);
@@ -116,6 +123,6 @@ public class Grille
     public Grille()
     {
         this.width = 50;
-        this.heighth = 50;
+        this.heigth = 50;
     }
 }
