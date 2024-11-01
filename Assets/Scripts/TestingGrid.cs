@@ -20,5 +20,10 @@ public class TestingGrid : MonoBehaviour
         {
             grid.modifyValue(Utils.getMouseWordPos());
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            Debug.Log(grid.getValue(Utils.getMouseWordPos()));
+        }
     }
 }

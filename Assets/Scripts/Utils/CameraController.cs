@@ -53,7 +53,7 @@ public class CameraController : MonoBehaviour
             // Rotation verticale (pitch)
             xRotation -= mouseY;
 
-            yRotation-= mouseX;
+            yRotation += mouseX;
 
             xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Limite de l'angle vertical
 

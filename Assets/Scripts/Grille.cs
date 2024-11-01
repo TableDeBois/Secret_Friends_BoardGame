@@ -94,6 +94,25 @@ public class Grille
         modifyValue(x, z);
     }
 
+    private int getValue(int x, int y)
+    {
+        if (x >= 0 && y >= 0 && x < width && y < heighth)
+        {
+            return grilleArray[x, y];
+          
+        } else
+        {
+            return -1;
+        }
+    }
+
+    public int getValue(Vector3 worldPos)
+    {
+        int x, z;
+        getXZ(worldPos, out x, out z);
+        return getValue(x, z);
+    }
+
     public Grille()
     {
         this.width = 50;
