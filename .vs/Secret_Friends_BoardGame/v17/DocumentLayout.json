@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\grille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\Utils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Utils.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\Utils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Utils.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:35:06.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestingGrid.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TestingGrid.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestingGrid.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TestingGrid.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestingGrid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:29:35.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grille.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Grille.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grille.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Grille.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grille.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:25:05.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
