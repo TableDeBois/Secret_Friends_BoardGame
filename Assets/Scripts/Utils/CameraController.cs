@@ -12,6 +12,8 @@ public class CameraController : MonoBehaviour
 
 
     private float xRotation = 0f; //rotation verticale
+
+    private float yRotation = 0f;
     private bool isRightClickHeld = false;
 
 
@@ -50,13 +52,16 @@ public class CameraController : MonoBehaviour
 
             // Rotation verticale (pitch)
             xRotation -= mouseY;
+
+            yRotation-= mouseX;
+
             xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Limite de l'angle vertical
 
             // Applique la rotation verticale
-            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
 
             // Applique la rotation horizontale
-            transform.Rotate(Vector3.forward * mouseX, Space.World);
+            //transform.Rotate(Vector3.up * mouseX, Space.World);
         }
     }
 

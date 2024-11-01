@@ -77,6 +77,23 @@ public class Grille
 
     }
 
+    public void modifyValue(int x, int y)
+    {
+        Debug.Log("setValue : " + x + " , " + y);
+        if (x >= 0 && y >= 0 && x < width && y < heighth)
+        {
+            grilleArray[x, y] += 1;
+            debugArray[x, y].text = grilleArray[x, y].ToString();
+        }
+    }
+
+    public void modifyValue(Vector3 worldPos)
+    {
+        int x, z;
+        getXZ(worldPos, out x, out z);
+        modifyValue(x, z);
+    }
+
     public Grille()
     {
         this.width = 50;

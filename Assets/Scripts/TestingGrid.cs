@@ -10,7 +10,7 @@ public class TestingGrid : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        grid = new Grille(20,20, 10f);
+        grid = new Grille(20,20, 10f);  
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class TestingGrid : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            grid.setValue(Utils.getMouseWordPos(), 56);
+            grid.modifyValue(Utils.getMouseWordPos());
         }
     }
 }
