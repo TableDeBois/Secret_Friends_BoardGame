@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class TestingGrid : MonoBehaviour
 {
-    private Grille grid;
+    [SerializeField] private MapVisuals mapVisual;
+    private Grille<bool> grid;
 
     // Start is called before the first frame update
     private void Start()
     {
-        grid = new Grille(4, 3, 10f, new Vector3(20,0));
+        grid = new Grille<bool>(4, 3, 10f, new Vector3(0,0));
+
+        //mapVisual.SetGrille(grid);
 
     }
     // Update is called once per frame
