@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class MapVisuals
+public class MapVisuals : MonoBehaviour
 {
 
-    private Grille grille;
+    private Grille<float> grille;
     private Mesh mesh;
     private Vector3[] vertices;
     private Vector2[] uv;
@@ -14,7 +14,7 @@ public class MapVisuals
     float[,] noisemap;
     private GameObject gridObject;
 
-    public MapVisuals(Grille grille, MeshFilter meshFilter)
+    public MapVisuals(Grille<float> grille, MeshFilter meshFilter)
     {
         this.grille = grille;
 
@@ -23,7 +23,7 @@ public class MapVisuals
         gridObject.AddComponent<MeshRenderer>();
 
 
-        CreateEmptyMeshArrays(grille.getWidth() * grille.getHeigth(), out this.vertices, out this.uv, out this.triangles);
+        MeshUtils.CreateEmptyMeshArrays(grille.getWidth() * grille.getHeigth(), out this.vertices, out this.uv, out this.triangles);
 
         int vertexIndex = 0;
         int trianglesIndex = 0;
@@ -36,10 +36,12 @@ public class MapVisuals
         {
             for (int j = 0; j < grille.getHeigth(); j++)
             {
+                int index = i*grille.getHeigth()+j;
+
                 Vector3 quadPos = new Vector3(i,0,j);
                 float noise = noisemap[i,j];
 
-                AddToMeshArray(quadPos, noise, vertexIndex, trianglesIndex);
+                MeshUtils.AddToMeshArray(quadPos, noise,index,i,j,grille.getTileSize(), vertices, uv, triangles);
 
                 grille.setValue(i,j, noise);
 
@@ -55,36 +57,8 @@ public class MapVisuals
         meshFilter.mesh = mesh;
     }
 
-
-    private void AddToMeshArray(Vector3 quadPos, float noise, int vertexIndex, int triangleIndex)
+    public void SetGrille(Grille<float> grid)
     {
-        // Positionne les sommets en utilisant la hauteur
-        vertices[vertexIndex] = quadPos + new Vector3(0, noise, 0);             // Bas-gauche
-        vertices[vertexIndex + 1] = quadPos + new Vector3(1, noise, 0);         // Bas-droit
-        vertices[vertexIndex + 2] = quadPos + new Vector3(0, noise, 1);         // Haut-gauche
-        vertices[vertexIndex + 3] = quadPos + new Vector3(1, noise, 1);         // Haut-droit
-
-        // Assigne des UV simples pour chaque sommet
-        uv[vertexIndex] = new Vector2(0, 0);                  // UV pour le bas-gauche
-        uv[vertexIndex + 1] = new Vector2(1, 0);              // UV pour le bas-droit
-        uv[vertexIndex + 2] = new Vector2(0, 1);              // UV pour le haut-gauche
-        uv[vertexIndex + 3] = new Vector2(1, 1);              // UV pour le haut-droit
-
-        // Définit deux triangles pour le quad
-        triangles[triangleIndex] = vertexIndex;
-        triangles[triangleIndex + 1] = vertexIndex + 2;
-        triangles[triangleIndex + 2] = vertexIndex + 1;
-
-        triangles[triangleIndex + 3] = vertexIndex + 1;
-        triangles[triangleIndex + 4] = vertexIndex + 2;
-        triangles[triangleIndex + 5] = vertexIndex + 3;
+        this.grille = grid;
     }
-
-    public static void CreateEmptyMeshArrays(int quadCount, out Vector3[] vertices, out Vector2[] uvs, out int[] triangles)
-    {
-        vertices = new Vector3[4*quadCount];
-        uvs = new Vector2[4*quadCount];
-        triangles = new int[6*quadCount];
-    }
-
 }
