@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\nouveau d\u00E9part\\proceduralboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nouveau d\u00E9part\\proceduralboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\noisemapgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\heatmapboolvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\heatmapboolvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\utils\\meshutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\meshutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\mapvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\noisemapgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\noisemapgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +27,11 @@
       "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,24 +46,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProceduralBoard.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Nouveau d\u00E9part\\ProceduralBoard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Nouveau d\u00E9part\\ProceduralBoard.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Nouveau d\u00E9part\\ProceduralBoard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Nouveau d\u00E9part\\ProceduralBoard.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEAAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:32:11.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HeatMapBoolVisual.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\HeatMapBoolVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HeatMapBoolVisual.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\HeatMapBoolVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HeatMapBoolVisual.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:11:53.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeshUtils.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\MeshUtils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\MeshUtils.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\MeshUtils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\MeshUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:51:06.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapVisuals.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\MapVisuals.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapVisuals.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\MapVisuals.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapVisuals.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T16:06:16.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NoiseMapGeneration.cs",
               "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\NoiseMapGeneration.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NoiseMapGeneration.cs",
               "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\NoiseMapGeneration.cs",
               "RelativeToolTip": "Assets\\Scripts\\NoiseMapGeneration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T15:34:31.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T15:34:31.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\CameraController.cs",
@@ -59,42 +123,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Utils.cs",
               "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\Utils.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Utils.cs",
               "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\Utils.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utils\\Utils.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwDgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:35:06.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T11:35:06.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "TestingGrid.cs",
               "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TestingGrid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestingGrid.cs",
               "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TestingGrid.cs",
               "RelativeToolTip": "Assets\\Scripts\\TestingGrid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:29:35.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T11:29:35.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Grille.cs",
               "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Grille.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grille.cs",
               "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Grille.cs",
               "RelativeToolTip": "Assets\\Scripts\\Grille.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:25:05.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T11:25:05.314Z"
             }
           ]
         }
