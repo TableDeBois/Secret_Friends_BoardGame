@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\texturegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\texturegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\utils\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\mapgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|d:\\projets_persos\\scret_boardgame\\secret_friends_boardgame\\assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\mapdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\grille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\scripts\\bruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC16501-3A42-8847-BA05-48A768F9F903}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC3F7B3-4F9A-69C2-7B8F-80C35FDE0CF2}|Assembly-CSharp-Editor.csproj|D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\assets\\editor\\mapgeneratoreditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC3F7B3-4F9A-69C2-7B8F-80C35FDE0CF2}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\mapgeneratoreditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\CameraController.cs",
-              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\CameraController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utils\\CameraController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwE0AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TextureGenerator.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TextureGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TextureGenerator.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TextureGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TextureGenerator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T13:04:26.983Z",
+              "WhenOpened": "2026-01-22T16:45:43.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\Utils.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Utils.cs",
-              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Utils\\Utils.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utils\\Utils.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwDgAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MapGeneratorEditor.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Editor\\MapGeneratorEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\MapGeneratorEditor.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Editor\\MapGeneratorEditor.cs",
+              "RelativeToolTip": "Assets\\Editor\\MapGeneratorEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:35:06.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T16:11:29.099Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TestingGrid.cs",
-              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TestingGrid.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TestingGrid.cs",
-              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\TestingGrid.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TestingGrid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Title": "MapDisplay.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\MapDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapDisplay.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\MapDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:29:35.845Z",
+              "WhenOpened": "2026-01-22T16:02:56.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapGenerator.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\MapGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapGenerator.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\MapGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapGenerator.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:58:44.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Grille.cs",
-              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Grille.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Grille.cs",
-              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\Grille.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Grille.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowHAAAAAeAAAAAAAAAA==",
+              "Title": "Bruit.cs",
+              "DocumentMoniker": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\bruit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\bruit.cs",
+              "ToolTip": "D:\\Projets_Persos\\Scret_boardgame\\Secret_Friends_BoardGame\\Assets\\Scripts\\bruit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\bruit.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:25:05.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T15:53:24.692Z"
             }
           ]
         }
