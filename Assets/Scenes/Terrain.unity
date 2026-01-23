@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &126350837
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 574342940}
   - component: {fileID: 574342939}
   - component: {fileID: 574342938}
+  - component: {fileID: 574342941}
   m_Layer: 0
   m_Name: Map Generator
   m_TagString: Untagged
@@ -252,13 +253,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drawMode: 2
   niveauDetail: 0
-  noiseScale: 22.76
-  octaves: 4
-  persistance: 0.493
-  lacunarity: 1.35
-  seed: 54
-  offset: {x: -29.39, y: 6.43}
-  meshHeightMultiplier: 13.52
+  noiseScale: 24.72
+  octaves: 5
+  persistance: 0.5
+  lacunarity: 2
+  seed: 148
+  offset: {x: -35.72, y: 6.43}
+  meshHeightMultiplier: 13.5
   meshHeightCurve:
     serializedVersion: 2
     m_Curve:
@@ -299,14 +300,23 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.70219827
-      value: 0.13060622
+      time: 0.70710427
+      value: 0.2367383
       inSlope: 1.390295
       outSlope: 1.390295
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8263295
+      value: 0.5554776
+      inSlope: 3.5789444
+      outSlope: 3.5789444
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13841337
     - serializedVersion: 3
       time: 1
       value: 1
@@ -332,16 +342,16 @@ MonoBehaviour:
     colour: {r: 0.9245283, g: 0.8382919, b: 0.39684942, a: 0}
   - name: Plaines
     height: 0.55
-    colour: {r: 0.29992363, g: 0.7169812, b: 0.1792453, a: 0}
+    colour: {r: 0.34158608, g: 0.6509434, b: 0.25485048, a: 0}
   - name: Forets
     height: 0.65
-    colour: {r: 0.04338732, g: 0.3679245, b: 0.07386955, a: 0}
+    colour: {r: 0.08098966, g: 0.49056602, b: 0.12046687, a: 0}
   - name: montagne1
-    height: 0.8
-    colour: {r: 0.4056604, g: 0.3027319, b: 0.22005163, a: 0}
+    height: 0.7
+    colour: {r: 0.4433962, g: 0.36587754, b: 0.3032663, a: 0}
   - name: montagne2
     height: 0.9
-    colour: {r: 0.3207547, g: 0.270952, b: 0.20122819, a: 0}
+    colour: {r: 0.2924528, g: 0.26642042, b: 0.23037556, a: 0}
   - name: Neige
     height: 1
     colour: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 0}
@@ -360,6 +370,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574342941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574342937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5be7e17d6126a4090df6ac5c5e6bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewer: {fileID: 1115377592}
+  mapMaterial: {fileID: 2100000, guid: 91afb3844155fd3429c510699d784c49, type: 2}
 --- !u!1 &586090465
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &755492543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -533,6 +557,111 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.935272, y: -0.00013866786, z: -13.831395}
   m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1115377588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1115377592}
+  - component: {fileID: 1115377591}
+  - component: {fileID: 1115377590}
+  - component: {fileID: 1115377589}
+  m_Layer: 0
+  m_Name: viewer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1115377589
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115377588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1115377590
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115377588}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1115377591
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115377588}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1115377592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115377588}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -638,3 +767,4 @@ SceneRoots:
   - {fileID: 126350839}
   - {fileID: 755492545}
   - {fileID: 586090467}
+  - {fileID: 1115377592}

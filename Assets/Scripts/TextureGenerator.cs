@@ -10,9 +10,9 @@ public static class TextureGenerator
         texture.filterMode = FilterMode.Point;
         texture.wrapMode = TextureWrapMode.Clamp;
 
-        //A retirer ???####
+        /*//A retirer ???####
         texture.hideFlags = HideFlags.DontSave;
-        //#############
+        //#############*/
         texture.SetPixels (colourMap);
         texture.Apply ();
         return texture;

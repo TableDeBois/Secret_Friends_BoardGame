@@ -13,19 +13,19 @@ public class MapDisplay : MonoBehaviour
     public void DrawTexture(Texture2D texture)
     {
 
-        SetTexture(textureRenderer, texture);
-        //textureRenderer.sharedMaterial.mainTexture = texture;
+        //SetTexture(textureRenderer, texture);
+        textureRenderer.sharedMaterial.mainTexture = texture;
         textureRenderer.transform.localScale= new Vector3(texture.width, 1, texture.height);
     }
 
     public void DrawMesh(MeshData meshData, Texture2D texture)
     {
         meshFilter.sharedMesh = meshData.CreateMesh();
-        SetTexture(meshRenderer, texture);
-        //meshRenderer.sharedMaterial.mainTexture= texture;
+        //SetTexture(meshRenderer, texture);
+        meshRenderer.sharedMaterial.mainTexture= texture;
     }
 
-    void SetTexture(Renderer renderer, Texture2D texture)
+    /*void SetTexture(Renderer renderer, Texture2D texture)
     {
         MaterialPropertyBlock propBlock = new MaterialPropertyBlock();
 
@@ -38,6 +38,6 @@ public class MapDisplay : MonoBehaviour
 
         // On applique le bloc au renderer
         renderer.SetPropertyBlock(propBlock);
-    }
+    }*/
 
 }
